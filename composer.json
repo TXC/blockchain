@@ -1,0 +1,21 @@
+{
+  "require": {
+    "php": "^7.0",
+    "ext-pdo": "*",
+    "slim/slim": "^3.12",
+    "slim/twig-view": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Test\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
