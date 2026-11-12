@@ -1,6 +1,6 @@
 {
   "require": {
-    "php": "^7.0",
+    "php": "^8.0",
     "ext-pdo": "*",
     "slim/slim": "^3.12",
     "slim/twig-view": "^2.5"
